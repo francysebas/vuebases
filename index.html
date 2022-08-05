@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>vue cdm</title>
+</head>
+    <body>
+        <div id="app">
+            <h1>{{titulo}}</h1>
+
+            <ul>
+                <li v-for="afiliado of afiliados">
+                    {{afiliado.nombre}} - {{afiliado.apellido}}  - {{afiliado.estado}}
+                <span  v-if="afiliado.edad===25">afiliado 30 </span>
+                </li>
+            </ul>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+        <script src="01.js"></script>
+    </body>
+</html>
