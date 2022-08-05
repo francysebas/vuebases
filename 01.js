@@ -11,3 +11,8 @@ const app = new Vue({
         ]
     }
 })
+
+const sumarDos=()=>{
+    console.log(19)
+}
+sumarDos()
